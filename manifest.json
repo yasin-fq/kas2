@@ -1,0 +1,63 @@
+{
+  "id": "/",
+  "name": "Kasumee Kasir",
+  "short_name": "Kasumee",
+  "description": "Aplikasi kasir POS Kasumee dengan printer thermal Bluetooth, scanner barcode/QR, resi pengiriman, dan laporan penjualan. Bekerja offline tanpa internet.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#069494",
+  "categories": ["business", "productivity", "shopping"],
+  "icons": [
+    {
+      "src": "/icons/kasumee-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/kasumee-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/kasumee-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/kasumee-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/kasumee-apple-touch.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Transaksi Baru",
+      "short_name": "Transaksi",
+      "url": "/#pos"
+    },
+    {
+      "name": "Produk & Stok",
+      "short_name": "Produk",
+      "url": "/#products"
+    },
+    {
+      "name": "Print",
+      "short_name": "Print",
+      "url": "/#print"
+    }
+  ]
+}
